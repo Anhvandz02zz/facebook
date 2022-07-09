@@ -1,0 +1,161 @@
+@media only screen and (max-width: 600px) {
+
+ #menu-header{
+  width: 240px;
+  position: fixed;
+  /* z-index: 3; */
+ 
+ }
+ .yasuo{
+  background-color:rgb(48,48,48) ;
+ }
+  .input-left{
+    display: none;
+    float: left;
+  }
+  .menu-right{
+    margin-left: 60px;
+  }
+  .menu-center{
+    display: none;
+  }
+  .cover-img{
+  width: 240px;
+
+  }
+  .cover-img > img{
+    margin-left: 0;
+    max-width: 240px;
+    max-height: 100px;
+    object-fit: cover;
+   
+  }
+  .img-myself{
+   max-width: 240px;
+    /* margin: auto; */
+   margin-left: 75px;
+   display: block;
+
+   position: relative;
+  
+  
+  }
+  .img-mytext{
+   max-height: 50px;
+   position: relative;
+   width: 240px;
+   margin-top: -15px;
+  
+  }
+  .img-mytext p
+  {
+   text-align: center;
+  }
+  .img-friends{
+margin-left: 80px;
+  max-width: 240px;
+  }
+  .img-friends img:nth-child(1){
+    position: absolute;
+    transform: translateY(-75px);
+     left: 90px;
+  }
+  .edit-cover{
+   position: absolute;
+   background-color: aquamarine;
+   max-width: 240px;
+   height: 20px;
+   
+  
+left: 27%;
+ top: 100px;
+  
+  }
+  .self-edit{
+max-width: 240px;
+
+margin-left: 0;
+margin-right: 0;
+position: relative;
+left: 4px;
+top: 0;
+  }
+   #list-item{
+    margin-top: 100px;
+   }
+   .name-myself-all{
+    flex-direction: column;
+    
+   }
+   #list-item{
+    max-width: 240px;
+   }
+   .nav-list li:nth-child(4),
+   .nav-list li:nth-child(5),
+   .nav-list li:nth-child(6)
+   {
+    display: none;
+   }
+   .nav-item-links a{
+    font-size: 7px;
+   }
+  
+   .change-color{
+    width: 220px;
+
+   }
+   .content{
+    margin-left: 9px;
+    
+   }
+   .status{
+    width: 220px;
+   }
+   .function-icon_event{
+    display: none;
+   }
+   .self__search{
+   margin-left: 8px;
+   max-width: 240px;
+   margin-right: -8px;
+   }
+   .self__search-status input{
+   width: 170px;
+
+   }
+   .self__search-status img {
+    margin-left: 10px;
+   }
+   .managerment-post{
+    margin-left: 8px;
+   max-width: 240px;
+   margin-right: -8px;
+   background-color: black;
+   }
+   .post{
+    width: 220px;
+   
+ 
+   }
+   .update-text{
+    background-color: rgb(48,48,48);
+   }
+   .post-status{
+    background-color:rgb(48,48,48) ;
+   }
+   .post video {
+    width: 220px;
+    height: 150px;
+   }
+   .dots-many{
+    margin-left: 20px;
+   }
+   .img__post-status{
+    margin-left: 5px;
+   }
+
+
+}
+  
+  
+
